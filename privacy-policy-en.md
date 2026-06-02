@@ -47,9 +47,9 @@ If you register or sign in using the "Continue with Google" button, Google LLC t
 
 | Data | Source | Storage Location |
 |---|---|---|
-| Email address of your Google account | Google | Supabase Auth (EU, Ireland) |
-| Google Account ID (pseudonymous identifier) | Google | Supabase Auth (EU, Ireland) |
-| Display name of your Google account | Google | Supabase Auth (EU, Ireland) |
+| Email address of your Google account | Google | Supabase Auth (EU, Germany — Frankfurt) |
+| Google Account ID (pseudonymous identifier) | Google | Supabase Auth (EU, Germany — Frankfurt) |
+| Display name of your Google account | Google | Supabase Auth (EU, Germany — Frankfurt) |
 
 **What we do not import:** Your Google profile photo is not automatically transferred. You upload your profile photo separately and deliberately within the app.
 
@@ -107,7 +107,7 @@ For the optional sign-in via Google account (Google Sign-In / OAuth 2.0), **Goog
 - Google Terms of Service: [policies.google.com/terms](https://policies.google.com/terms)
 
 ### Supabase
-- Hosting: EU (Ireland, AWS eu-west-1) · [supabase.com/privacy](https://supabase.com/privacy)
+- Hosting: EU (Germany, AWS eu-central-1, Frankfurt) · [supabase.com/privacy](https://supabase.com/privacy)
 
 ### OneSignal (Push Notifications)
 - Hosting: EU (Netherlands, Google Cloud) · no third-country transfer

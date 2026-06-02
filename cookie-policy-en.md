@@ -43,7 +43,7 @@ enmaru is a native mobile app and does **not use traditional browser cookies**. 
 - The app captures anonymised usage events (e.g. which features are used)
 - **No identification of individual users is possible**
 - No sharing with advertising networks or third parties
-- Stored exclusively on our servers (Supabase, EU Ireland)
+- Stored exclusively on our servers (Supabase, EU Germany (Frankfurt))
 - **Legal basis:** Art. 6(1)(f) GDPR — legitimate interest in product improvement
 
 ---

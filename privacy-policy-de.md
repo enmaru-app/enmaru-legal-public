@@ -109,7 +109,7 @@ Für die optional nutzbare Anmeldung per Google-Konto (Google Sign-In / OAuth 2.
 - Google-Nutzungsbedingungen: [policies.google.com/terms](https://policies.google.com/terms)
 
 ### Supabase
-- Hosting: EU (Irland, AWS eu-west-1) · [supabase.com/privacy](https://supabase.com/privacy)
+- Hosting: EU (Deutschland, AWS eu-central-1 (Frankfurt)) · [supabase.com/privacy](https://supabase.com/privacy)
 
 ### OneSignal (Push)
 - Hosting: EU (Niederlande, Google Cloud) · kein Drittlandtransfer
