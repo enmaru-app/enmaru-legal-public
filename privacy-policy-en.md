@@ -118,16 +118,17 @@ For the optional sign-in via Google account (Google Sign-In / OAuth 2.0), **Goog
 - All API calls are server-side — your IP address is never transmitted to Google
 - [mapsplatform.google.com/resources/trust-center/gdpr/](https://mapsplatform.google.com/resources/trust-center/gdpr/)
 
-### Cloudflare (CDN, DDoS Protection, DNS)
-- **Cloudflare, Inc.**, 101 Townsend St, San Francisco, CA 94043, USA
-- Function: Reverse proxy, Content Delivery Network (CDN), DDoS protection and DNS management for enmaru.app
-- **Data processed:** IP addresses, HTTP requests, HTTP headers, connection metadata — solely for the purpose of delivering and securing the service
-- **Legal basis:** Art. 6(1)(f) GDPR — legitimate interests in security and availability
-- **Third-country transfer:** Cloudflare, Inc. participates in the EU-U.S. Data Privacy Framework (European Commission adequacy decision of 10 July 2023); additionally, Standard Contractual Clauses pursuant to Art. 46(2)(c) GDPR
-- **Privacy Policy:** [cloudflare.com/privacypolicy](https://www.cloudflare.com/privacypolicy/)
-- **GDPR information:** [cloudflare.com/trust-hub/gdpr](https://www.cloudflare.com/trust-hub/gdpr/)
+### GitHub, Inc. (Feedback Submissions)
+- **GitHub, Inc.** (a Microsoft subsidiary), 88 Colin P Kelly Jr St, San Francisco, CA 94107, USA
+- **Function:** When you voluntarily submit in-app feedback (Settings → Feedback), your feedback is sent to our private GitHub repository as an issue. GitHub acts as our processor.
+- **Data processed:** Your feedback text, device information (platform, OS version, device model, app version), current screen, and a pseudonymised partial user ID (first 8 characters of your account ID — not reversible to your identity without additional data). No name, email address, or exact location is transmitted.
+- **Legal basis:** Art. 6(1)(a) GDPR — explicit consent (voluntary, user-initiated action)
+- **Optionality:** Entirely optional — you are never required to submit feedback
+- **Third-country transfer:** GitHub Inc. is US-based; transfer basis: EU Standard Contractual Clauses
+- **Privacy Policy:** [docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
+- **Retention:** Feedback issues are stored in our private repository and may be deleted at any time by us
 
-### IONOS (Transactional Email)
+### IONOS (DNS, Hosting & Transactional Email)
 - Hosting: Germany (EU) · DPA auto-incorporated via Terms of Service
 
 ---

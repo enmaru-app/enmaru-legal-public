@@ -120,16 +120,17 @@ Für die optional nutzbare Anmeldung per Google-Konto (Google Sign-In / OAuth 2.
 - API-Aufrufe erfolgen ausschließlich über unsere Server — deine IP wird Google nicht übermittelt
 - [mapsplatform.google.com/resources/trust-center/gdpr/](https://mapsplatform.google.com/resources/trust-center/gdpr/)
 
-### Cloudflare (CDN, DDoS-Schutz, DNS)
-- **Cloudflare, Inc.**, 101 Townsend St, San Francisco, CA 94043, USA
-- Funktion: Reverse Proxy, Content Delivery Network (CDN), DDoS-Schutz und DNS-Verwaltung für enmaru.app
-- **Verarbeitete Daten:** IP-Adressen, HTTP-Anfragen, HTTP-Header, Verbindungsmetadaten — ausschließlich zur Bereitstellung und Absicherung des Dienstes
-- **Rechtsgrundlage:** Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an Sicherheit und Verfügbarkeit)
-- **Drittlandtransfer:** Cloudflare ist dem EU-U.S. Data Privacy Framework (Beschluss der EU-Kommission vom 10. Juli 2023) beigetreten; zusätzlich Standardvertragsklauseln gem. Art. 46 Abs. 2 lit. c DSGVO
-- **Datenschutz:** [cloudflare.com/privacypolicy](https://www.cloudflare.com/privacypolicy/)
-- **DSGVO-Informationen:** [cloudflare.com/trust-hub/gdpr](https://www.cloudflare.com/trust-hub/gdpr/)
+### GitHub, Inc. (Feedback-Einreichungen)
+- **GitHub, Inc.** (Microsoft-Tochter), 88 Colin P Kelly Jr St, San Francisco, CA 94107, USA
+- **Funktion:** Wenn du freiwillig In-App-Feedback einreichst (Einstellungen → Feedback), wird dein Feedback als Issue in unser privates GitHub-Repository übermittelt. GitHub handelt dabei als unser Auftragsverarbeiter.
+- **Verarbeitete Daten:** Dein Feedback-Text, Geräteinformationen (Plattform, OS-Version, Gerätemodell, App-Version), aktueller Bildschirm sowie eine pseudonymisierte Nutzer-ID (erste 8 Zeichen deiner Konto-ID — nicht auf deine Identität zurückführbar). Es werden keine Namen, E-Mail-Adressen oder genauen Standortdaten übermittelt.
+- **Rechtsgrundlage:** Art. 6 Abs. 1 lit. a DSGVO — ausdrückliche Einwilligung (freiwillige, nutzerinitiierte Aktion)
+- **Freiwilligkeit:** Vollständig freiwillig — du bist zu keiner Zeit verpflichtet, Feedback einzureichen
+- **Drittlandtransfer:** GitHub Inc. ist in den USA ansässig; Grundlage: EU-Standardvertragsklauseln
+- **Datenschutzerklärung:** [docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
+- **Aufbewahrung:** Feedback-Issues werden in unserem privaten Repository gespeichert und können von uns jederzeit gelöscht werden
 
-### IONOS (Transaktions-E-Mail)
+### IONOS (DNS, Hosting & Transaktions-E-Mail)
 - Hosting: Deutschland (EU) · AVV automatisch über AGB eingeschlossen
 
 ---
