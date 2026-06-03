@@ -143,7 +143,8 @@ For the optional sign-in via Google account (Google Sign-In / OAuth 2.0), **Goog
 
 ## 7. Retention Periods
 
-- **Operational data:** until account deletion
+- **Chat messages:** automatically deleted after **1 year** from the date sent (Art. 5(1)(c) GDPR — data minimisation). This applies to all messages regardless of whether the account is active.
+- **Operational data (profile, location, events):** until account deletion
 - **Google OAuth data (Supabase Auth):** until account deletion; Google processes data on its end in accordance with its own deletion policy
 - **Compliance records (post-deletion):** anonymised consent evidence for up to 3 years (Art. 5(2), Art. 17(3) GDPR), then automatically deleted
 

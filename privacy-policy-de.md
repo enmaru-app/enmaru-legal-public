@@ -151,7 +151,8 @@ Wir betreiben ein **selbst gehostetes, serverseitiges** Analysesystem auf Basis 
 
 ## 8. Speicherdauer
 
-- **Operative Daten:** bis zur Kontolöschung
+- **Chat-Nachrichten:** werden **1 Jahr** nach dem Sendedatum automatisch gelöscht (Art. 5 Abs. 1 lit. c DSGVO — Datensparsamkeit). Dies gilt unabhängig davon, ob das Konto noch aktiv ist.
+- **Operative Daten (Profil, Standort, Events):** bis zur Kontolöschung
 - **Google-OAuth-Daten (Supabase Auth):** bis zur Kontolöschung; Google verarbeitet Daten auf seiner Seite nach seiner eigenen Löschrichtlinie
 - **Compliance-Daten (nach Löschung):** anonymisierter Nachweis für max. 3 Jahre (Art. 5 Abs. 2, Art. 17 Abs. 3 DSGVO), danach automatisch gelöscht
 
