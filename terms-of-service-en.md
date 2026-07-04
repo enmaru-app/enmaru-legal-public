@@ -7,7 +7,7 @@
 
 ## 1. Scope
 
-These Terms of Service govern your use of the enmaru (iOS and Android). By registering — whether via email address or Google account — you accept these terms.
+These Terms of Service govern your use of the enmaru (iOS and Android). By registering — whether via email address, Google account, or Apple account — you accept these terms.
 
 ---
 
@@ -44,6 +44,19 @@ You may alternatively register and sign in using your **Google account** (Google
 
 ---
 
+### 3.3 Apple Account (Sign in with Apple)
+
+You may alternatively register and sign in using your **Apple account** ("Sign in with Apple"). The following applies in addition:
+
+- The same Terms of Service and minimum age requirements apply regardless of the sign-in method used.
+- Use of Sign in with Apple requires that you have actively clicked the "Sign in with Apple" button and explicitly accepted these Terms of Service and our Privacy Policy by ticking the corresponding checkboxes.
+- By using Sign in with Apple, you acknowledge that **Apple Inc.** processes your authentication data in accordance with the [Apple Privacy Policy](https://www.apple.com/legal/privacy/). We have no influence over this processing by Apple.
+- We receive from Apple only a pseudonymous user identifier and — depending on your choice — your email address (or Apple's private relay address if you use "Hide My Email") and, on first sign-in, your name. Details are set out in the Privacy Policy (Sections 2.7 and 5).
+- Use of Sign in with Apple is **entirely voluntary**. Registration and sign-in using an email address and password is always available and results in no functional disadvantage.
+- You may unlink your Apple account at any time by deleting your enmaru account via Settings → Delete Account.
+
+---
+
 ## 4. User Obligations
 
 You agree to:
@@ -53,6 +66,8 @@ You agree to:
 - Not use automated access tools (bots, scrapers)
 - Respect the rights of other users
 - Comply with applicable data protection laws when using other users' contact details
+
+**Reporting and moderation:** You can report profiles, profile pictures, or chat messages that violate these Terms (Report function). We review reports and may, where justified, remove content or restrict or terminate the account concerned. Reports are handled as described in the Privacy Policy (Section 2.8). Misuse of the report function (e.g. knowingly false reports) is itself a breach of these Terms.
 
 ---
 
