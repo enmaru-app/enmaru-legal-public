@@ -182,6 +182,14 @@ For the optional sign-in via Apple account (Sign in with Apple), **Apple Inc., O
 ### IONOS (DNS, Hosting & Transactional Email)
 - Hosting: Germany (EU) · DPA auto-incorporated via Terms of Service
 
+### Cookie Consent Management — Real Cookie Banner (Website)
+
+To manage the cookies and similar technologies used (tracking pixels, web beacons, etc.) and related consents, we use the consent tool "Real Cookie Banner". Details on how "Real Cookie Banner" works can be found at [https://devowl.io/rcb/data-processing/](https://devowl.io/rcb/data-processing/).
+
+The legal basis for the processing of personal data in this context are Art. 6(1)(c) GDPR and Art. 6(1)(f) GDPR. Our legitimate interest is the management of the cookies and similar technologies used and the related consents.
+
+The provision of personal data is neither contractually required nor necessary for the conclusion of a contract. You are not obliged to provide the personal data. If you do not provide the personal data, we will not be able to manage your consents.
+
 ---
 
 ## 6. Location Data

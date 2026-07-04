@@ -184,6 +184,14 @@ Für die optional nutzbare Anmeldung per Apple-Konto („Mit Apple anmelden") is
 ### IONOS (DNS, Hosting & Transaktions-E-Mail)
 - Hosting: Deutschland (EU) · AVV automatisch über AGB eingeschlossen
 
+### Cookie-Einwilligungsverwaltung — Real Cookie Banner (Website)
+
+Zur Verwaltung der eingesetzten Cookies und ähnlichen Technologien (Tracking-Pixel, Web-Beacons etc.) und diesbezüglicher Einwilligungen setzen wir das Consent-Tool „Real Cookie Banner" ein. Details zur Funktionsweise von „Real Cookie Banner" findest du unter [https://devowl.io/de/rcb/datenverarbeitung/](https://devowl.io/de/rcb/datenverarbeitung/).
+
+Rechtsgrundlagen für die Verarbeitung der personenbezogenen Daten in diesem Zusammenhang sind Art. 6 Abs. 1 lit. c DSGVO und Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse ist die Verwaltung der eingesetzten Cookies und ähnlichen Technologien und der diesbezüglichen Einwilligungen.
+
+Die Bereitstellung der personenbezogenen Daten ist weder vertraglich vorgeschrieben noch für den Abschluss eines Vertrages notwendig. Du bist nicht verpflichtet, die personenbezogenen Daten bereitzustellen. Wenn du die personenbezogenen Daten nicht bereitstellst, können wir deine Einwilligungen nicht verwalten.
+
 ---
 
 ## 6. Analytics
