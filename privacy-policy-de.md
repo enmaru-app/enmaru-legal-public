@@ -61,6 +61,41 @@ Wenn du dich über die Schaltfläche „Mit Google anmelden" registrierst oder a
 
 ---
 
+### 2.7 Anmeldung mit Apple (Sign in with Apple)
+
+Wenn du dich über die Schaltfläche „Mit Apple anmelden" registrierst oder anmeldest, übermittelt Apple Inc. nach deiner Freigabe folgende Daten an uns:
+
+| Datum | Herkunft | Speicherort |
+|---|---|---|
+| Apple-Nutzerkennung (stabil, pseudonymisiert) | Apple | Supabase Auth (EU, Irland) |
+| E-Mail-Adresse — deine echte Adresse oder Apples anonyme Weiterleitungs&shy;adresse, falls du „E-Mail-Adresse verbergen" wählst | Apple | Supabase Auth (EU, Irland) |
+| Anzeigename — von Apple **nur bei der ersten Anmeldung** übermittelt, und nur wenn du dem zustimmst | Apple | Supabase Auth (EU, Irland) |
+
+**E-Mail-Adresse verbergen:** Wenn du Apples Funktion „E-Mail-Adresse verbergen" nutzt, erhalten wir nur eine zufällige Weiterleitungsadresse (`…@privaterelay.appleid.com`). E-Mails, die wir dorthin senden, werden dir von Apple zugestellt; deine echte E-Mail-Adresse erfahren wir nicht.
+
+**Was wir nicht übernehmen:** Dein Apple-Profilfoto wird nicht übernommen. Du lädst dein Profilfoto separat und bewusst innerhalb der App hoch. Bei jeder Anmeldung nach der ersten übermittelt Apple ausschließlich die Nutzerkennung — nicht deinen Namen.
+
+**Token-Verarbeitung:** Das von Apple ausgestellte Identity-Token (JWT) wird ausschließlich zur sicheren Authentifizierung über Supabase verarbeitet und nicht für andere Zwecke genutzt. Es wird serverseitig gespeichert und ist für uns nicht im Klartext zugänglich.
+
+**Einwilligung:** Die Nutzung von „Mit Apple anmelden" setzt voraus, dass du zuvor aktiv die Schaltfläche betätigt sowie unsere AGB und diese Datenschutzerklärung per Checkbox ausdrücklich akzeptiert hast. Eine stillschweigende oder voreingestellte Einwilligung findet nicht statt.
+
+---
+
+### 2.8 Meldungen und Moderation
+
+Zum Schutz der Community kannst du das Profil, das Profilbild oder eine Chat-Nachricht eines anderen Nutzers melden (Melde-Funktion). Wenn du eine Meldung absendest, verarbeiten wir:
+
+| Daten | Zweck |
+|---|---|
+| Deine Nutzer-ID (meldende Person) | Bearbeitung der Meldung, Verhinderung von Missbrauch der Melde-Funktion |
+| ID des gemeldeten Nutzers und Verweis auf den gemeldeten Inhalt | Prüfung und Bearbeitung der Meldung |
+| Meldegrund (Belästigung, Spam, unangemessener Inhalt, Identitätsmissbrauch, Sonstiges) und deine optionale Freitext-Beschreibung | Bewertung der Meldung |
+| Status und Moderations-Zeitstempel | Dokumentation der Prüfentscheidung |
+
+Meldungen werden durch einen Menschen geprüft (siehe Abschnitt 10). Die Identität der meldenden Person wird dem gemeldeten Nutzer nicht offengelegt.
+
+---
+
 ## 3. Zweck und Rechtsgrundlage
 
 | Daten | Zweck | Rechtsgrundlage |
@@ -68,11 +103,13 @@ Wenn du dich über die Schaltfläche „Mit Google anmelden" registrierst oder a
 | E-Mail, Name | Account-Verwaltung | Art. 6 Abs. 1 lit. b DSGVO |
 | Profilfoto, Profildaten | Darstellung im Netzwerk | Art. 6 Abs. 1 lit. b DSGVO |
 | Google Account ID, E-Mail (OAuth) | Authentifizierung via Google-Konto | Art. 6 Abs. 1 lit. a DSGVO |
+| Apple-Nutzerkennung, E-Mail (Anmeldung mit Apple) | Authentifizierung via Apple-Konto | Art. 6 Abs. 1 lit. a DSGVO |
 | GPS-Standort | Echtzeit-Discovery (~100 m Genauigkeit) | Art. 6 Abs. 1 lit. a DSGVO |
 | Check-in | Verfügbarkeitsanzeige für Nutzer im Umkreis | Art. 6 Abs. 1 lit. a DSGVO |
 | Chat-Nachrichten | Direkte Kommunikation | Art. 6 Abs. 1 lit. b DSGVO |
 | Push-Benach&shy;richtigungen | Hinweise auf Aktivitäten | Art. 6 Abs. 1 lit. a DSGVO |
 | Analytics | Produktverbesserung (anonymisiert) | Art. 6 Abs. 1 lit. f DSGVO |
+| Nutzer-Meldungen (meldende Person, gemeldeter Nutzer, Grund, Nachricht) | Sicherheit der Community, Missbrauchs&shy;prävention, Durchsetzung der AGB | Art. 6 Abs. 1 lit. f DSGVO — berechtigtes Interesse |
 
 ---
 
@@ -83,6 +120,7 @@ Alle datenintensiven Funktionen erfordern eine explizite In-App-Einwilligung. Wi
 - **Push:** Einstellungen → Notifications
 - **Chat-Benachrichtigungen:** Einstellungen → Chat Notifications
 - **Google-Verknüpfung:** Einstellungen → Account löschen (entfernt alle mit deinem Google-Konto verknüpften Daten aus der enmaru; die Verarbeitung durch Google LLC richtet sich nach deren Datenschutzrichtlinie)
+- **Anmeldung mit Apple:** Einstellungen → Account löschen (entfernt alle mit deinem Apple-Konto verknüpften Daten aus der enmaru; du kannst die Verknüpfung zudem jederzeit unter iOS-Einstellungen → dein Name → Mit Apple anmelden widerrufen. Die Verarbeitung durch Apple Inc. richtet sich nach deren Datenschutzrichtlinie)
 
 ---
 
@@ -107,6 +145,19 @@ Für die optional nutzbare Anmeldung per Google-Konto (Google Sign-In / OAuth 2.
 
 - Google-Datenschutzrichtlinie: [policies.google.com/privacy](https://policies.google.com/privacy)
 - Google-Nutzungsbedingungen: [policies.google.com/terms](https://policies.google.com/terms)
+
+### Apple Inc. — Anmeldung mit Apple
+
+Für die optional nutzbare Anmeldung per Apple-Konto („Mit Apple anmelden") ist **Apple Inc., One Apple Park Way, Cupertino, CA 95014, USA**, als eigenständig Verantwortlicher im Sinne des Art. 4 Nr. 7 DSGVO tätig.
+
+**Datenfluss:** Beim Tippen auf „Mit Apple anmelden" authentifiziert Apple dich (auf Apple-Geräten über den System-Dialog) und stellt ein signiertes Identity-Token aus, das wir über Supabase verifizieren. Apple protokolliert diesen Anmeldevorgang gemäß seiner eigenen Datenschutzrichtlinie. Wir erhalten ausschließlich die in Abschnitt 2.7 genannten Daten. Wählst du „E-Mail-Adresse verbergen", betreibt Apple zusätzlich den anonymen E-Mail-Weiterleitungsdienst, über den unsere Nachrichten dich erreichen.
+
+**Drittlandtransfer:** Die Übermittlung von Daten an Apple-Server in den USA erfolgt auf Basis von Standardvertragsklauseln gemäß Art. 46 Abs. 2 lit. c DSGVO. Apple Inc. ist darüber hinaus unter dem EU-U.S. Data Privacy Framework zertifiziert.
+
+**Optionalität:** Die Nutzung von „Mit Apple anmelden" ist vollständig freiwillig. Eine Registrierung und Anmeldung ausschließlich per E-Mail-Adresse und Passwort ist jederzeit möglich und führt zu keinen funktionalen Nachteilen.
+
+- Apple Datenschutzrichtlinie: [apple.com/legal/privacy](https://www.apple.com/legal/privacy/)
+- Anmelden mit Apple & Datenschutz: [support.apple.com/de-de/102571](https://support.apple.com/de-de/102571)
 
 ### Supabase
 - Hosting: EU (Deutschland, AWS eu-central-1 (Frankfurt)) · [supabase.com/privacy](https://supabase.com/privacy)
@@ -154,6 +205,8 @@ Wir betreiben ein **selbst gehostetes, serverseitiges** Analysesystem auf Basis 
 - **Chat-Nachrichten:** werden **1 Jahr** nach dem Sendedatum automatisch gelöscht (Art. 5 Abs. 1 lit. c DSGVO — Datensparsamkeit). Dies gilt unabhängig davon, ob das Konto noch aktiv ist.
 - **Operative Daten (Profil, Standort, Events):** bis zur Kontolöschung
 - **Google-OAuth-Daten (Supabase Auth):** bis zur Kontolöschung; Google verarbeitet Daten auf seiner Seite nach seiner eigenen Löschrichtlinie
+- **Apple-Anmeldedaten (Supabase Auth):** bis zur Kontolöschung; Apple verarbeitet Daten auf seiner Seite nach seiner eigenen Löschrichtlinie
+- **Nutzer-Meldungen:** während der Prüfung sowie nach Abschluss für bis zu **12 Monate** zur Sicherheitsdokumentation und zur Erkennung wiederholten Missbrauchs (Art. 6 Abs. 1 lit. f DSGVO), danach Löschung
 - **Compliance-Daten (nach Löschung):** anonymisierter Nachweis für max. 3 Jahre (Art. 5 Abs. 2, Art. 17 Abs. 3 DSGVO), danach automatisch gelöscht
 
 ---

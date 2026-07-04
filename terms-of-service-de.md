@@ -7,7 +7,7 @@
 
 ## 1. Geltungsbereich
 
-Diese Nutzungsbedingungen gelten für die Nutzung der enmaru (iOS und Android). Mit der Registrierung — gleichgültig ob per E-Mail-Adresse oder Google-Konto — akzeptierst du diese Bedingungen.
+Diese Nutzungsbedingungen gelten für die Nutzung der enmaru (iOS und Android). Mit der Registrierung — gleichgültig ob per E-Mail-Adresse, Google-Konto oder Apple-Konto — akzeptierst du diese Bedingungen.
 
 ---
 
@@ -44,6 +44,19 @@ Du kannst dich alternativ über dein **Google-Konto** (Google Sign-In / OAuth 2.
 
 ---
 
+### 3.3 Apple-Konto (Anmeldung mit Apple)
+
+Du kannst dich alternativ über dein **Apple-Konto** („Mit Apple anmelden") registrieren und anmelden. Für die Nutzung dieser Option gilt ergänzend:
+
+- Unabhängig von der gewählten Anmeldemethode gelten dieselben Nutzungsbedingungen und Mindestaltersanforderungen.
+- Die Anmeldung mit Apple setzt voraus, dass du zuvor aktiv die Schaltfläche „Mit Apple anmelden" betätigt sowie unsere AGB und Datenschutzerklärung per Checkbox ausdrücklich akzeptiert hast.
+- Mit der Nutzung von „Mit Apple anmelden" stimmst du zu, dass **Apple Inc.** deine Authentifizierungsdaten gemäß der [Apple-Datenschutzrichtlinie](https://www.apple.com/legal/privacy/) verarbeitet. Auf diese Verarbeitung durch Apple haben wir keinen Einfluss.
+- Von Apple erhalten wir ausschließlich eine pseudonymisierte Nutzerkennung sowie — je nach deiner Wahl — deine E-Mail-Adresse (oder Apples anonyme Weiterleitungsadresse bei „E-Mail-Adresse verbergen") und bei der ersten Anmeldung deinen Namen. Details sind der Datenschutzerklärung (Abschnitt 2.7 und 5) zu entnehmen.
+- Die Nutzung von „Mit Apple anmelden" ist **vollständig freiwillig**. Eine Registrierung und Anmeldung per E-Mail-Adresse und Passwort ist jederzeit möglich.
+- Du kannst die Verknüpfung mit deinem Apple-Konto jederzeit aufheben, indem du deinen enmaru-Account unter Einstellungen → Account löschen entfernst.
+
+---
+
 ## 4. Nutzerpflichten
 
 Du verpflichtest dich:
@@ -53,6 +66,8 @@ Du verpflichtest dich:
 - Keine automatisierten Zugriffe (Bots, Scraping) durchzuführen
 - Die Rechte anderer Nutzer zu respektieren
 - Geltende Datenschutzbestimmungen bei der Nutzung von Kontaktdaten anderer zu beachten
+
+**Meldungen und Moderation:** Du kannst Profile, Profilbilder oder Chat-Nachrichten melden, die gegen diese Bedingungen verstoßen (Melde-Funktion). Wir prüfen Meldungen und können in begründeten Fällen Inhalte entfernen oder das betroffene Konto einschränken oder sperren. Die Bearbeitung erfolgt wie in der Datenschutzerklärung (Abschnitt 2.8) beschrieben. Der Missbrauch der Melde-Funktion (z. B. wissentlich falsche Meldungen) stellt selbst einen Verstoß gegen diese Bedingungen dar.
 
 ---
 
